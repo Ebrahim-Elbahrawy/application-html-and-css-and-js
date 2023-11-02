@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cv</title>
+    <link rel="stylesheet" href="css/master.css">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+    <!-- start setting box  -->
+    <div class="setting-box">
+        <div class="toogle-settings ">
+            <i class="fa fa-gear icon"></i>
+        </div>
+        <div class="theme-container">
+            <h3>Switch Theme</h3>
+            <div class="theme-toggler">
+                <span>Light</span>
+                <span class="toggler"></span>
+                <span>Dark</span>
+            </div>
+            <h3>pick a color</h3>
+            <div class="theme-colors">
+                <div class="color active" color="#2980b9" style="background:#2980b9"></div>
+                <div class="color" color="#27ae60" style="background:#27ae60;"></div>
+                <div class="color" color="#0fb9b1" style="background:#0fb9b1;"></div>
+                <div class="color" color="#ffd32a" style="background:#ffd32a;"></div>
+                <div class="color" color="#e84393" style="background:#e84393;"></div>
+            </div>
+            <button class="btn-option">
+                Reset
+            </button>
+        </div>
+    </div>
+    <!-- end setting box  -->
+    <!-- start nav-bullets  -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about-us">
+            <div class="tooltip">ABOUT</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tooltip">SKILLS</div>
+        </div>
+        <div class="bullet" data-section=".gallary">
+            <div class="tooltip">PROJECT</div>
+        </div>
+        <div class="bullet" data-section=".featuer">
+            <div class="tooltip">CONTACT</div>
+        </div>
+    </div>
+    <!-- end nav-bullets  -->
+
+    <!-- start landing page  -->
+    <div class="landing">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header-area">
+                <div class="logo">Ebrahim</div>
+                <ul class="links">
+                    <li><a href="#" data-section=".about-us">About</a></li>
+                    <li><a href="#" data-section=".skills">Skills</a></li>
+                    <li><a href="#" data-section=".gallary">Project</a></li>
+                    <li><a href="#" data-section=".featuer">Featuer</a></li>
+                </ul>
+            </div>
+            <div class="intro-text">
+                <h1>We are <span>Creative</span> Agency</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae rerum quaerat illum reiciendis voluptates neque ex iusto mollitia provident accusamus? cumque?
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- end landing page -->
+    <!-- start about  -->
+    <div class="container">
+        <div class="about-us" id="about">
+            <div class="info-box">
+                <h2 class="speacialheading">About ME</h2>
+                <p>My name's Ebrahim , I'm civil engineering </p>
+            </div>
+            <div class="image-box">
+                <img src="image/DSC_4164.JPG" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end about  -->
+    <!-- start skills  -->
+    <div class="container">
+        <div class="skills" id="skill">
+            <h2 class="speacialheading">Our Skills</h2>
+            <div class="skill-box">
+                <div class="one">
+                    <div class="skill-name">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skill-progress">
+                        <span data-progress="95%"></span>
+                    </div>
+                </div>
+                <div class="one">
+                    <div class="skill-name">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skill-progress">
+                        <span data-progress="90%"></span>
+                    </div>
+                </div>
+                <div class="one">
+                    <div class="skill-name">
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-progress">
+                        <span data-progress="80%"></span>
+                    </div>
+                </div>
+                <div class="one">
+                    <div class="skill-name">
+                        <h3>photoShop</h3>
+                    </div>
+                    <div class="skill-progress">
+                        <span data-progress="90%"></span>
+                    </div>
+                </div>
+                <div class="one">
+                    <div class="skill-name">
+                        <h3>AutoCad</h3>
+                    </div>
+                    <div class="skill-progress">
+                        <span data-progress="60%"></span>
+                    </div>
+                </div>
+                <div class="one">
+                    <div class="skill-name">
+                        <h3>SketchUp</h3>
+                    </div>
+                    <div class="skill-progress">
+                        <span data-progress="80%"></span>
+                    </div>
+                </div>
+                <div class="one">
+                    <div class="skill-name">
+                        <h3>Office</h3>
+                    </div>
+                    <div class="skill-progress">
+                        <span data-progress="90%"></span>
+                    </div>
+                </div>
+                <div class="one">
+                    <div class="skill-name">
+                        <h3>Python</h3>
+                    </div>
+                    <div class="skill-progress">
+                        <span data-progress="70%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end skills -->
+    <!-- star gallary  -->
+    <div class="gallary" id="gallary">
+        <div class="container">
+            <h2 class="speacialheading">My Project</h2>
+            <div class="image-box">
+                <img src="image/1.jpg" alt="Image one">
+                <img src="image/2.jpg" alt="Image two">
+                <img src="image/3.jpg" alt="Image three">
+                <img src="image/4.jpg" alt="Image four">
+                <img src="image/5.jpg" alt="Image five">
+                <img src="image/0.jpg" alt="">
+                <img src="image/2.jpg" alt="">
+                <img src="image/3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end gallary  -->
+    <!-- start timeline  -->
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <h2 class="heading speacialheading">Learning Tree</h2>
+                <div class="year">2020</div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Microsoft Office</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt sunt, voluptate blanditiis eligendi fuga aperiam tempore at nostrum laborum cum reiciendis, mollitia ab quidem atque sapiente illum. Sapiente, veniam enim?</p>
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Java</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt sunt, voluptate blanditiis eligendi fuga aperiam tempore at nostrum laborum cum reiciendis, mollitia ab quidem atque sapiente illum. Sapiente, veniam enim?</p>
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="content">
+                        <h3>OOP</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt sunt, voluptate blanditiis eligendi fuga aperiam tempore at nostrum laborum cum reiciendis, mollitia ab quidem atque sapiente illum. Sapiente, veniam enim?</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="content">
+                        <h3>DataStructuer</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt sunt, voluptate blanditiis eligendi fuga aperiam tempore at nostrum laborum cum reiciendis, mollitia ab quidem atque sapiente illum. Sapiente, veniam enim?</p>
+                    </div>
+                </div>
+                <div class="year">2021</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>HTML</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt sunt, voluptate blanditiis eligendi fuga aperiam tempore at nostrum laborum cum reiciendis, mollitia ab quidem atque sapiente illum. Sapiente, veniam enim?</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="content">
+                        <h3>CSS</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt sunt, voluptate blanditiis eligendi fuga aperiam tempore at nostrum laborum cum reiciendis, mollitia ab quidem atque sapiente illum. Sapiente, veniam enim?</p>
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="content">
+                        <h3>SketchUp</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt sunt, voluptate blanditiis eligendi fuga aperiam tempore at nostrum laborum cum reiciendis, mollitia ab quidem atque sapiente illum. Sapiente, veniam enim?</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Vray</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt sunt, voluptate blanditiis eligendi fuga aperiam tempore at nostrum laborum cum reiciendis, mollitia ab quidem atque sapiente illum. Sapiente, veniam enim?</p>
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="content">
+                        <h3>PhotoShop</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt sunt, voluptate blanditiis eligendi fuga aperiam tempore at nostrum laborum cum reiciendis, mollitia ab quidem atque sapiente illum. Sapiente, veniam enim?</p>
+                    </div>
+                </div>
+                <div class="year">2022</div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Python</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt sunt, voluptate blanditiis eligendi fuga aperiam tempore at nostrum laborum cum reiciendis, mollitia ab quidem atque sapiente illum. Sapiente, veniam enim?</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Javascript</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt sunt, voluptate blanditiis eligendi fuga aperiam tempore at nostrum laborum cum reiciendis, mollitia ab quidem atque sapiente illum. Sapiente, veniam enim?</p>
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Bootstrap</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt sunt, voluptate blanditiis eligendi fuga aperiam tempore at nostrum laborum cum reiciendis, mollitia ab quidem atque sapiente illum. Sapiente, veniam enim?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end time line  -->
+    <!-- Start featuer  -->
+    <div class="featuer">
+        <h2 class="speacialheading">My Featuer</h2>
+        <div class="container">
+            <div class="feat-box">
+                <i class="fa-solid fa-gauge-simple-high"></i>
+                <div class="text-box">
+                    <h3>Fast</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione maiores perspiciatis eos hic maxime vero reprehenderit dolorem pariatur sed veritatis sequi ducimus, qui nulla corporis. Architecto hic natus ipsa eaque!</p>
+                </div>
+            </div>
+            <div class="feat-box">
+                <i class="fa-solid fa-brain"></i>
+                <div class="text-box">
+                    <h3>Creativity</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione maiores perspiciatis eos hic maxime vero reprehenderit dolorem pariatur sed veritatis sequi ducimus, qui nulla corporis. Architecto hic natus ipsa eaque!</p>
+                </div>
+            </div>
+            <div class="feat-box">
+                <i class="fa-solid fa-timeline"></i>
+                <div class="text-box">
+                    <h3>on time</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione maiores perspiciatis eos hic maxime vero reprehenderit dolorem pariatur sed veritatis sequi ducimus, qui nulla corporis. Architecto hic natus ipsa eaque!</p>
+                </div>
+            </div>
+            <div class="feat-box">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <div class="text-box">
+                    <h3>Responsive Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione maiores perspiciatis eos hic maxime vero reprehenderit dolorem pariatur sed veritatis sequi ducimus, qui nulla corporis. Architecto hic natus ipsa eaque!</p>
+                </div>
+            </div>
+            <div class="feat-box">
+                <i class="fa-solid fa-layer-group"></i>
+                <div class="text-box">
+                    <h3>Developer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione maiores perspiciatis eos hic maxime vero reprehenderit dolorem pariatur sed veritatis sequi ducimus, qui nulla corporis. Architecto hic natus ipsa eaque!</p>
+                </div>
+            </div>
+            <div class="feat-box">
+                <i class="fa-regular fa-lightbulb"></i>
+                <div class="text-box">
+                    <h3>Designer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione maiores perspiciatis eos hic maxime vero reprehenderit dolorem pariatur sed veritatis sequi ducimus, qui nulla corporis. Architecto hic natus ipsa eaque!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end featuer  -->
+    <!-- start footer  -->
+    <div class="footer">
+
+
+        <h2 class="speacialheading">Contact-US</h2>
+        <div class="box-container container">
+            <div class="form-masssage">
+                <form action="">
+                    <label for="fullName">Your Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="massage">massage:</label>
+                    <textarea name="massage" id="massage" cols="30" rows="10" required></textarea>
+                    <div class="sumbit">
+                        <i class="fa-solid fa-arrow-right icon"></i><input type="submit" value="send" name="send" required></div>
+                </form>
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +01094752723 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +01067121823 </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> tanta, elsanta , elgafaraia </a>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> About-us </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> SKills </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Learning Tree </a>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- end  footer  -->
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

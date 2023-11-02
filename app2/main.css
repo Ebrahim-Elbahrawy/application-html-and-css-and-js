@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #745325;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+}
+
+.nav_toggle {
+    width: 40px;
+    height: 40px;
+    background-color: #ffc803;
+    border-radius: 50%;
+    position: absolute;
+    right: -20px;
+    top: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+span {
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+nav {
+    position: fixed;
+    left: 0px;
+}
+
+.nav-inner {
+    width: fit-content;
+    height: 100vh;
+    background-color: #111428;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -65%);
+    -webkit-transform: translate(0, -65%);
+    -moz-transform: translate(0, -65%);
+    -ms-transform: translate(0, -65%);
+    -o-transform: translate(0, -65%);
+}
+
+nav ul li {
+    margin: 10px;
+    padding: 10px;
+    animation-name: trans;
+    animation-duration: 3s;
+}
+
+ul li:hover {
+    background-color: #ffc803;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.last {
+    position: fixed;
+    bottom: 50px;
+}
+
+.text {
+    display: none;
+}
+
+.rotate {
+    transform: rotateZ(180deg);
+    transition: 0.3s;
+}

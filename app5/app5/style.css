@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    border: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(185, 94, 94);
+    height: 100vh;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(209, 13, 13);
+    align-items: center;
+    position: relative;
+    top: 65PX;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+/* Small */
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+
+/* Medium */
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+
+/* Large */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        background-color: transparent;
+        gap: 30px;
+    }
+}
+
+
+/* end global  */
+
+.container .image,
+canvas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container img,
+canvas {
+    padding: 10px;
+    max-width: 80%;
+    max-height: 600px;
+}
+
+.container .image .upload input {
+    display: none;
+}
+
+.upload label {
+    padding: 10px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    width: 40%;
+    border: 2px dashed #ffffff;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.filter {
+    width: 300px;
+    margin: 20px
+}
+
+.filter ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.filter ul li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.filter ul label {
+    padding: 10px;
+}
+
+.filter ul li input {
+    width: 100%;
+    padding: 10PX;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.btn input,
+a {
+    background-color: transparent;
+    border: 2px dashed #ffffff;
+    padding: 10px;
+    cursor: pointer;
+    width: 100px;
+}
+
+img,
+canvas:hover {
+    scale: 1.3;
+}
